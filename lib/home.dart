@@ -191,20 +191,6 @@ class UserInfo {
 //  Map<String, dynamic> toJson() => _$PersonToJson(this);
 }
 
-//UserInfo _$UserInfoFromJson(Map<String, dynamic> json) {
-//  return UserInfo(
-//      name: json['name'] as String,
-//      avatar_img: json['avatar_img'] as String,
-//      address: json['address'] as String,
-//      sex: json['sex'] as int,
-//      school: json['school'] as String,
-//      born_day: json['born_day'] as int,
-//      born_year: json['born_year'] as int,
-//      mail: json['mail'] as String,
-//      born_month: json['born_month'] as int,
-//      phone: json['phone'] as String,
-//      uid: json['uid'] as int);
-//}
 
 UserInfo userInfo;
 
